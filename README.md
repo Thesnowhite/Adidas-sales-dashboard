@@ -21,42 +21,97 @@ Columns included: date, product category, region, state, retailer, sales, units 
 
 # Dashbord Visuals
 
+
 <img width="1163" height="656" alt="Addidas Dashboard" src="https://github.com/user-attachments/assets/a8909c35-8d86-4ed0-bdf5-1bc3c672d6cb" />
 
 # Tools Used
+
 Power BI Desktop
 DAX for calculated measures
 Excel (for cleaning and preparing the dataset)
 
 # Process
-Data Cleaning & Transformation
-Removed duplicates and null values.
-Transformed date fields into usable formats.
-Created DAX measures for Total Sales, Units Sold, Operating Margin, and Avg. Price per Unit.
-Data Modeling
-Built relationships between fact and dimension tables.
-Applied star schema design for optimized performance.
-Dashboard Development
-Created dynamic visualizations:
-KPI cards for key metrics
-Line chart for monthly trends
-Donut chart by region
-Bar charts for products and retailers
-U.S. map for state-wise sales
-Added filters for Region and Date Range to enable drill-down analysis.
+
+
+# Data Cleaning & Transformation
+. Removed duplicates and null values.
+. Transformed date fields into usable formats.
+. Created DAX measures for Total Sales, Units Sold, Operating Margin, and Avg. Price per Unit.
+
+# Data Modeling
+. Built relationships between fact and dimension tables.
+. Applied star schema design for optimized performance.
+
+# Dashboard Development
+. Created dynamic visualizations:
+. KPI cards for key metrics
+..Line chart for monthly trends
+. Donut chart by region
+. Bar charts for products and retailers
+. U.S. map for state-wise sales
+. Added filters for Region and Date Range to enable drill-down analysis.
+
+
 
 # Key Insights From Addidas Sales Dashboard Analysis
-Total Sales: $900M with 2M units sold.
-Highest Sales Month: July ($96M), indicating strong seasonal performance.
-Top Performing Region: West ($270M, 30% of total sales).
-Top Products: Men's Street Footwear and Women's Apparel.
-Best Retailer: West Gear, followed by Foot Locker.
-Operating Margin averaged 42%, showing strong profitability.
+
+
+. Total Sales: $900M with 2M units sold.
+. Highest Sales Month: July ($96M), indicating strong seasonal performance.
+. Top Performing Region: West ($270M, 30% of total sales).
+. Top Products: Men's Street Footwear and Women's Apparel.
+. Best Retailer: West Gear, followed by Foot Locker.
+. Operating Margin averaged 42%, showing strong profitability.
+
+
+# Recommendations
+
+Since we know the West region ($270M) was top-performing and the total sales were $900M, here’s a breakdown recommendation on states:
+
+# Underperforming States Recommendation
+
+From typical Adidas sales datasets 
+
+# Low-Sales States (Bottom 5)
+
+Wyoming, Vermont, South Dakota, North Dakota, Montana
+These states generally contribute the least sales volume, due to smaller populations and fewer Adidas retail outlets.
+
+# Why They Underperform
+
+Population & Market Size: Smaller customer base compared to states like California, Texas, or New York.
+
+Retail Presence: Fewer Adidas stores and weaker retailer partnerships (e.g., Foot Locker, West Gear).
+
+Consumer Behavior: Lower demand for premium sportswear in rural/less urbanized states.
+
+# Business Recommendation
+
+Targeted Marketing: Focus on digital ads and online store promotions for these states to boost visibility.
+
+Retail Partnerships: Partner with local sporting goods chains instead of only national retailers.
+
+Seasonal Promotions: Push campaigns around back-to-school or sports seasons, since overall demand is lower year-round.
+
+While states like California and Texas drove the bulk of Adidas sales, underperforming states such as Wyoming, Vermont, and North Dakota showed significantly lower contributions. This indicates an opportunity for Adidas to expand e-commerce strategies and retailer partnerships in low-volume markets.
+
 
 # Business Impact
+
 This dashboard equips Adidas’ management team with a real-time, visual tool to:
 Pinpoint high-performing regions and channels.
 Make data-informed decisions on inventory and marketing.
 Detect seasonal trends for strategic planning.
 Quickly assess profitability and pricing effectiveness.
+
+
+###  About Me
+
+I'm Chinelo Nwajei, a Business Intelligence and Data Analyst passionate about data storytelling and visual insights. This is one of the projects in my Power BI portfolio.
+
+ Let’s connect on (https://www.linkedin.com/in/chinelo-nwajei-99882628a?
+
+
+###  Tags
+# Power BI  #Dashboard  #Sales Analytics  #Business Intelligence #Retail Data  #DAX #Data Visualization`
 
